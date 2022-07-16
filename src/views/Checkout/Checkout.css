@@ -1,0 +1,37 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout__title > h2 {
+    font-weight: 500;
+}
+
+.checkout__left {
+    flex: 0.75;
+}
+
+.checkout__right {
+    flex: 0.25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.checkout__right__products {  
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+}

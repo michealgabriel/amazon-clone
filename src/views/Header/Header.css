@@ -1,0 +1,102 @@
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header__searchInput {
+    height: 18px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.header__searchIcon {
+    padding: 10px;
+    height: 18px !important;
+    background-color: rgb(254, 189, 105);
+    color: black;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__nav > .nav__link {
+    text-decoration: none;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    cursor: pointer;
+}
+.header__optionLine1 {
+    font-size: 12px;
+}
+.header__optionLine2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(240, 136, 4);
+}
+
+.sub__header {
+    display: flex;
+    padding: 8px;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    height: 25px;
+}
+.sub__header__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border: 1px;
+}
+.sub__header__item > .MuiSvgIcon-root {
+    padding-right: 5px;
+}
+.sub__header__item:hover {
+    border: 1px solid white;
+}
