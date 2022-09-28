@@ -3,6 +3,7 @@
 Amazon Clone project built with React JS, uses Redux for state management and supports user authentication using firebase.
 
 ---
+
 ## Requirements
 
 For development, you will only need Node.js and a node global package, Yarn or NPM, installed in your environement.
