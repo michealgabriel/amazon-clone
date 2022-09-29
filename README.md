@@ -1,6 +1,6 @@
 # Amazon Clone
 
-Amazon Clone project built with React JS, uses Redux for state management and supports user authentication using firebase. Check [here](https://clone-46d7a.web.app/){:target="_blank"} to run application.
+Amazon Clone project built with React JS, uses Redux for state management and supports user authentication using firebase. Check [here](https://clone-46d7a.web.app/) to run application.
 
 ---
 
